@@ -54,17 +54,17 @@
       <Label fx:id="textfalschbärehöhli" layoutX="885.0" layoutY="327.0" prefHeight="21.0" prefWidth="83.0" />
       <ImageView fitHeight="107.0" fitWidth="102.0" layoutX="734.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../bilder/wuerfeln.png" />
+            <Image url="/bilder/wuerfeln.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="95.0" fitWidth="159.0" layoutX="612.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../bilder/hoehle.png" />
+            <Image url="/bilder/hoehle.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="136.0" fitWidth="102.0" layoutX="648.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="bildbaer" fitHeight="136.0" fitWidth="102.0" layoutX="648.0" layoutY="355.0" onMouseClicked="#changePic" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../bilder/baer.png" />
+            <Image url="/bilder/baer.png" />
          </image>
       </ImageView>
       <Label layoutX="775.0" layoutY="278.0" text="Anzahl Bärehöhli:">
@@ -84,7 +84,7 @@
       </Label>
       <ImageView fx:id="helppic" fitHeight="53.0" fitWidth="51.0" layoutX="930.0" layoutY="14.0" onMouseClicked="#help" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../bilder/questionmark.png" />
+            <Image url="/bilder/questionmark.png" />
          </image>
       </ImageView>
       <Label fx:id="textfalschbäre" layoutX="889.0" layoutY="405.0" prefHeight="21.0" prefWidth="83.0" />

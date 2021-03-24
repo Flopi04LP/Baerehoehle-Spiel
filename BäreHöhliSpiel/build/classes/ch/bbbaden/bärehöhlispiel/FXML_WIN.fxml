@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.bärehöhlispiel.FXML_WINController">
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.bärehöhlispiel.FXML_WINController">
    <children>
-      <Button fx:id="buttonplay" layoutX="375.0" layoutY="307.0" mnemonicParsing="false" onAction="#playAgain" text="play again" />
-      <Button fx:id="buttonclose" layoutX="149.0" layoutY="307.0" mnemonicParsing="false" onAction="#closeProgram" text="close program" />
+      <Button fx:id="buttonplay" layoutX="265.0" layoutY="313.0" mnemonicParsing="false" onAction="#playAgain" text="play again" />
+      <Button fx:id="buttonclose" layoutX="254.0" layoutY="346.0" mnemonicParsing="false" onAction="#closeProgram" text="close program" />
+      <ImageView fitHeight="290.0" fitWidth="227.0" layoutX="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/bilder/won.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
